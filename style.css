@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 150px;
+}
+
+nav a {
+    text-decoration: none;
+    color: red;
+    margin: 0 5px;
+}
+
+.sub-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sub-header p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.sub-header button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.content h1, .content h2 {
+    color: #000000;
+}
+
+address {
+    font-style: normal;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.note {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+
+.container-one {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.content-one {
+    margin-bottom: 50px;
+}
+.content-two {
+   padding:  22px 0;
+}
+.content-three {
+    margin-bottom: 50px;
+}
+
+.header, .header-two {
+    color: #000000;
+    font-weight: bold;
+}
+
+.para {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+strong {
+    font-weight: bold;
+    color: #000000;
+}
+
+.hi{
+    margin-top: 35px;
+}
+
+.no{
+    padding: 10px 0;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
+
+@media (max-width: 500px) {
+    .nav {
+      font-size: 12px;
+      padding-left: 10px;
+    }
+    .button{
+       margin-left: 10px;
+    }
+    td{
+        font-size: 10px;
+    }
+  }
